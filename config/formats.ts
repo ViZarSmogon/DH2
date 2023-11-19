@@ -2191,6 +2191,41 @@ export const Formats: FormatList = [
 		},	
 	},
 	{
+		name: "[Gen 4] Plus Metagame OU",
+		threads: [],
+
+		mod: 'gen4plus',
+		ruleset: ['Standard'],
+		banlist: ['AG', 'Uber', 'Arena Trap', 'Sand Veil', 'Quick Claw', 'Baton Pass', 'Swagger'],
+	},
+	{
+		name: "[Gen 4] Plus Metagame Ubers",
+		threads: [],
+
+		mod: 'gen4plus',
+		ruleset: ['Standard'],
+		banlist: ['AG'],
+		teambuilderFormat: 'Uber',
+	},
+	{
+		name: "[Gen 4] Plus Metagame UU",
+		threads: [],
+
+		mod: 'gen4plus',
+		ruleset: ['[Gen 4] OU'],
+		banlist: ['OU', 'UUBL'],
+	},
+	{
+		name: "[Gen 4] Plus Metagame LC",
+		threads: [],
+
+		mod: 'gen4plus',
+		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause'],
+		banlist: [
+			'Chansey', 'Scyther', 'Berry Juice', 'Dragon Rage', 'Sonic Boom', 'Swagger',
+		],
+	},
+	{
 		name: "[Gen 8] Roulettemons The Solomod",
 		desc: `<b>Roulettemons The Solomod</b>: literally roulettemons but a solomod + clean slate micro`,
 		mod: 'roulettemonsthesolomod',
